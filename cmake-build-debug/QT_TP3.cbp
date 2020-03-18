@@ -110,6 +110,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/MainWindow.cpp">
+			<Option target="QT_TP3"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/MainWindow.h">
+			<Option target="QT_TP3"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/cmake-build-debug/QT_TP3_automoc.cpp">
 			<Option target="QT_TP3"/>
 		</Unit>

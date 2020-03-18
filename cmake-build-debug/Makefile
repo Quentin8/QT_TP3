@@ -136,6 +136,33 @@ QT_TP3_automoc/fast:
 	$(MAKE) -f CMakeFiles/QT_TP3_automoc.dir/build.make CMakeFiles/QT_TP3_automoc.dir/build
 .PHONY : QT_TP3_automoc/fast
 
+MainWindow.o: MainWindow.cpp.o
+
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/QT_TP3.dir/build.make CMakeFiles/QT_TP3.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/QT_TP3.dir/build.make CMakeFiles/QT_TP3.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/QT_TP3.dir/build.make CMakeFiles/QT_TP3.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 QT_TP3_automoc.o: QT_TP3_automoc.cpp.o
 
 .PHONY : QT_TP3_automoc.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... QT_TP3"
 	@echo "... QT_TP3_automoc"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... QT_TP3_automoc.o"
 	@echo "... QT_TP3_automoc.i"
 	@echo "... QT_TP3_automoc.s"
