@@ -7,8 +7,9 @@ using namespace std;
 Window2::Window2(QMainWindow *fenetre) {
       QWidget* parent = new QWidget();
       this->setWindowTitle("IHM");
-      QHBoxLayout* horizontal = new QHBoxLayout();
+      QVBoxLayout* horizontal = new QVBoxLayout();
       horizontal->addWidget(bt1);
+      horizontal->addWidget(zone);
       parent->setLayout(horizontal);
       this->setCentralWidget(parent);
       //QObject::connect(bt1,SIGNAL(clicked()),qApp ,SLOT(quit()));
@@ -18,7 +19,10 @@ Window2::Window2(QMainWindow *fenetre) {
 void Window2::changed(){
       compteur++;
       QString chaine = "Example" + QString::number(compteur) + "\n";
-      bt1->setText(chaine);
-      cout << "Example" << compteur <<endl;
+      zone->setText(chaine);
+      bt1->setText("Example");
+      MainWindow* test = new MainWindow();//declarer en dynamique sinon PB
+      test->show();
+
 
 }

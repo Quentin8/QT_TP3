@@ -261,6 +261,7 @@ CMakeFiles/QT_TP3.dir/QT_TP3_automoc.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Qt
 CMakeFiles/QT_TP3.dir/QT_TP3_automoc.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
 CMakeFiles/QT_TP3.dir/QT_TP3_automoc.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: ../MainWindow.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: ../Window2.cpp
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: ../Window2.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -351,12 +352,17 @@ CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qma
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
@@ -365,18 +371,27 @@ CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwi
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QProgressBar
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qprogressbar.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h
 CMakeFiles/QT_TP3.dir/Window2.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
 CMakeFiles/QT_TP3.dir/main.cpp.o: ../MainWindow.h

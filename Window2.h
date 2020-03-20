@@ -11,12 +11,15 @@
 #include <QApplication>
 #include <string>
 #include <iostream>
+#include "MainWindow.h"
+#include <QTextEdit>
 
 class Window2 : public QMainWindow {
 Q_OBJECT
 private:
       QPushButton* bt1 = new QPushButton("fils");
       int compteur =0;
+      QTextEdit* zone = new QTextEdit();
 public:
     Window2(QMainWindow* fenetre = nullptr);
 public slots :
