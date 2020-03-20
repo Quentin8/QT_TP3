@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "QT_TP3_automoc.cpp"
   "CMakeFiles/QT_TP3.dir/main.cpp.o"
   "CMakeFiles/QT_TP3.dir/MainWindow.cpp.o"
+  "CMakeFiles/QT_TP3.dir/Window2.cpp.o"
   "CMakeFiles/QT_TP3.dir/QT_TP3_automoc.cpp.o"
   "QT_TP3.pdb"
   "QT_TP3"

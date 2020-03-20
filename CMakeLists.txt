@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_AUTOMOC ON)
 find_package(Qt5Widgets CONFIG REQUIRED)
 
-add_executable(QT_TP3 main.cpp MainWindow.cpp)
+add_executable(QT_TP3 main.cpp MainWindow.cpp Window2.cpp)
 target_link_libraries(QT_TP3 Qt5::Widgets)

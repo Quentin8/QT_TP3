@@ -1,4 +1,4 @@
-set(AM_SOURCES "/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/main.cpp;/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/MainWindow.cpp" )
+set(AM_SOURCES "/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/main.cpp;/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/MainWindow.cpp;/mnt/c/Users/Utilisateur/CLionProjects/CIR2/QT/QT-TP3/Window2.cpp" )
 set(AM_RCC_SOURCES  )
 set(AM_RCC_INPUTS )
 set(AM_SKIP_MOC "" )

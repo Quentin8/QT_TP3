@@ -8,6 +8,7 @@
 #include <QMainWindow>
 #include <QProgressBar>
 #include <QSlider>
+#include <QTextEdit>
 
 class MainWindow : public QMainWindow {
 Q_OBJECT
