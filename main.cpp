@@ -9,6 +9,7 @@ int main(int argc, char **argv) {
       test.show();
       Window2 test2;
       test2.show();
+      //test
 
       return app.exec();
 }
