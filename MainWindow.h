@@ -1,6 +1,4 @@
-//
-// Created by Utilisateur on 18/03/2020.
-//
+
 
 #ifndef QT_TP3_MAINWINDOW_H
 #define QT_TP3_MAINWINDOW_H

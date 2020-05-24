@@ -1,6 +1,4 @@
-//
-// Created by Utilisateur on 18/03/2020.
-//
+
 
 #include "Window2.h"
 using namespace std;
@@ -12,16 +10,18 @@ Window2::Window2(QMainWindow *fenetre) {
       horizontal->addWidget(zone);
       parent->setLayout(horizontal);
       this->setCentralWidget(parent);
-      //QObject::connect(bt1,SIGNAL(clicked()),qApp ,SLOT(quit()));
+      zone->setText("Text initial");
+      //QObject::connect(bt1,SIGNAL(clicked()),qApp ,SLOT(quit())); quitter
       QObject::connect(bt1,SIGNAL(clicked()),this ,SLOT(changed()));
 
 }
 void Window2::changed(){
       compteur++;
       QString chaine = "Example" + QString::number(compteur) + "\n";
-      zone->setText(chaine);
+      QString prec = zone->toHtml();
+      zone->setText(prec + chaine);
       bt1->setText("Example");
-      MainWindow* test = new MainWindow();//declarer en dynamique sinon PB
+      MainWindow* test = new MainWindow();
       test->show();
 
 
